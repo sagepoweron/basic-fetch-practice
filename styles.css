@@ -1,0 +1,32 @@
+body
+{
+    text-align: center;
+    width:960px;
+    margin:0 auto;
+}
+
+.controls
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightblue;
+}
+.card
+{
+    border: solid 2px black;
+    margin: 10px;
+    padding: 10px;
+}
+ul
+{
+    padding-inline-start: 0px;
+    text-align: left;
+}
+
+button
+{
+    width: 400px;
+    margin: 10px;
+    font-size: large;
+}
