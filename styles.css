@@ -1,7 +1,7 @@
 body
 {
     text-align: center;
-    width:960px;
+    min-width:576px;
     margin:0 auto;
 }
 
@@ -22,6 +22,8 @@ ul
 {
     padding-inline-start: 0px;
     text-align: left;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 button
@@ -29,4 +31,20 @@ button
     width: 400px;
     margin: 10px;
     font-size: large;
+}
+
+@media screen and (min-width: 576px) and (max-width: 959px)
+{
+    ul
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 960px)
+{
+    ul
+    {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
